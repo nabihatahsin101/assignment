@@ -33,7 +33,7 @@ class front extends StatelessWidget{
                 'Product Price: \$28,000',
                 style: TextStyle(color: Colors.red[600],fontSize: 18),
               ),
-              SizedBox(height: 46),
+              SizedBox(height: 44),
               Text(
                 'Product Feature Description:',
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
@@ -46,7 +46,7 @@ class front extends StatelessWidget{
                     '- Fuel Efficiency: 25 mpg (City), 30 mpg (Highway)',
                 style: TextStyle(fontSize: 20),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 42),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
